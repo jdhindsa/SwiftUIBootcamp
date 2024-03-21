@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		345AECF52BACEE94004B85F1 /* Simple Bindings in SwiftUI.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Simple Bindings in SwiftUI.md"; sourceTree = "<group>"; };
 		34A791052BACDCD700AA88DD /* SwiftUIBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34A791082BACDCD700AA88DD /* SwiftUIBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBootcampApp.swift; sourceTree = "<group>"; };
 		34A7910C2BACDCD700AA88DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -93,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				34A791192BACDD1000AA88DD /* SimpleBindingBootcamp.swift */,
+				345AECF52BACEE94004B85F1 /* Simple Bindings in SwiftUI.md */,
 			);
 			path = "Simple Bindings";
 			sourceTree = "<group>";
