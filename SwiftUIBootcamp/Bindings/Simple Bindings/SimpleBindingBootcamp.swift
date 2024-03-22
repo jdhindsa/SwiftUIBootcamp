@@ -24,11 +24,6 @@ struct SimpleBindingBootcamp: View {
 	}
 }
 
-/*
- 😇
- In this view, both viewBackgroundColor and buttonBackgroundColor are changed within this view.
- Therefore, they should be marked as @Bindings since the parent view would need to know about these changes.
- */
 struct ButtonView: View {
 	@Binding var viewBackgroundColor: Color
 	@Binding var buttonBackgroundColor: Color
@@ -53,11 +48,6 @@ struct ButtonView: View {
 	}
 }
 
-/*
- 😇
- In this view, both buttonBackgroundColor is NOT changed within this view.
- Therefore, you don't need to mark it as a @Binding.
- */
 struct ButtonView2: View {
 	var buttonBackgroundColor: Color
 	var body: some View {
