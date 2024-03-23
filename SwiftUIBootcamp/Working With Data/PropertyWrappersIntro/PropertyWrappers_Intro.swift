@@ -1,5 +1,5 @@
 //
-//  PropertyWrappersIntro.swift
+//  PropertyWrappers_Intro.swift
 //  SwiftUIBootcamp
 //
 //  Created by Jason Dhindsa on 2024-03-23.
@@ -13,16 +13,33 @@ struct FourCharacters {
 	
 	var wrappedValue: String {
 		get { return value }
-		set { value = String(newValue.prefix(4))} // Takes only the last 4 digits of the assigned string
+		set { value = String(newValue.prefix(4))} // Takes only the first 4 digits of the assigned string
 	}
 }
 
-struct PropertyWrappersIntro: View {
+struct PropertyWrappers_Intro: View {
+	@State private var newPIN = ""
+	
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+		VStack(spacing: 20) {
+			Text("Property Wrappers - Introduction")
+				.font(.largeTitle)
+			Text("Property wrappers allow you to add the same logic to multiple properties.")
+				.font(.title3)
+			
+			Text("Old PIN: 1234")
+			Text("New PIN: 567890")
+			Button("Save PIN") {
+				@FourCharacters var newPin: String
+				newPin = "567890"
+				newPIN = newPin
+			}
+			Text("Your New PIN: ") + Text(newPIN).bold()
+		}
+		.font(.title)
     }
 }
 
 #Preview {
-    PropertyWrappersIntro()
+	PropertyWrappers_Intro()
 }
