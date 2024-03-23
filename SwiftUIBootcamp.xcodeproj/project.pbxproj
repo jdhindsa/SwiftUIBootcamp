@@ -13,6 +13,8 @@
 		34A7911A2BACDD1000AA88DD /* SimpleBindingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A791192BACDD1000AA88DD /* SimpleBindingBootcamp.swift */; };
 		34A7911C2BACDD2900AA88DD /* ChildViewsUsingCustomBindingsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A7911B2BACDD2900AA88DD /* ChildViewsUsingCustomBindingsBootcamp.swift */; };
 		34A7911E2BACDD3700AA88DD /* SwiftUIViewsUsingCustomBindingsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A7911D2BACDD3700AA88DD /* SwiftUIViewsUsingCustomBindingsBootcamp.swift */; };
+		34BC744E2BAF7B65008945BC /* PropertyWrappers_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BC744D2BAF7B65008945BC /* PropertyWrappers_Intro.swift */; };
+		34BC74522BAF8017008945BC /* propertywrappers1.png in Resources */ = {isa = PBXBuildFile; fileRef = 34BC74512BAF8017008945BC /* propertywrappers1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,9 @@
 		34A791192BACDD1000AA88DD /* SimpleBindingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBindingBootcamp.swift; sourceTree = "<group>"; };
 		34A7911B2BACDD2900AA88DD /* ChildViewsUsingCustomBindingsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildViewsUsingCustomBindingsBootcamp.swift; sourceTree = "<group>"; };
 		34A7911D2BACDD3700AA88DD /* SwiftUIViewsUsingCustomBindingsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewsUsingCustomBindingsBootcamp.swift; sourceTree = "<group>"; };
+		34BC744D2BAF7B65008945BC /* PropertyWrappers_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrappers_Intro.swift; sourceTree = "<group>"; };
+		34BC744F2BAF7F75008945BC /* PropertyWrappers.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = PropertyWrappers.md; sourceTree = "<group>"; };
+		34BC74512BAF8017008945BC /* propertywrappers1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = propertywrappers1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +61,8 @@
 		34A791072BACDCD700AA88DD /* SwiftUIBootcamp */ = {
 			isa = PBXGroup;
 			children = (
-				34A791162BACDCEE00AA88DD /* Bindings */,
+				34BC74502BAF7FF2008945BC /* Screenshot */,
+				34BC744A2BAF7B38008945BC /* Working With Data */,
 				34A791082BACDCD700AA88DD /* SwiftUIBootcampApp.swift */,
 				34A7910C2BACDCD700AA88DD /* Assets.xcassets */,
 				34A7910E2BACDCD700AA88DD /* Preview Content */,
@@ -97,6 +103,32 @@
 				345AECF52BACEE94004B85F1 /* Simple Bindings in SwiftUI.md */,
 			);
 			path = "Simple Bindings";
+			sourceTree = "<group>";
+		};
+		34BC744A2BAF7B38008945BC /* Working With Data */ = {
+			isa = PBXGroup;
+			children = (
+				34BC744C2BAF7B4C008945BC /* PropertyWrappersIntro */,
+				34A791162BACDCEE00AA88DD /* Bindings */,
+			);
+			path = "Working With Data";
+			sourceTree = "<group>";
+		};
+		34BC744C2BAF7B4C008945BC /* PropertyWrappersIntro */ = {
+			isa = PBXGroup;
+			children = (
+				34BC744D2BAF7B65008945BC /* PropertyWrappers_Intro.swift */,
+				34BC744F2BAF7F75008945BC /* PropertyWrappers.md */,
+			);
+			path = PropertyWrappersIntro;
+			sourceTree = "<group>";
+		};
+		34BC74502BAF7FF2008945BC /* Screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				34BC74512BAF8017008945BC /* propertywrappers1.png */,
+			);
+			path = Screenshot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +191,7 @@
 			files = (
 				34A791102BACDCD700AA88DD /* Preview Assets.xcassets in Resources */,
 				34A7910D2BACDCD700AA88DD /* Assets.xcassets in Resources */,
+				34BC74522BAF8017008945BC /* propertywrappers1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34A7911C2BACDD2900AA88DD /* ChildViewsUsingCustomBindingsBootcamp.swift in Sources */,
+				34BC744E2BAF7B65008945BC /* PropertyWrappers_Intro.swift in Sources */,
 				34A7911E2BACDD3700AA88DD /* SwiftUIViewsUsingCustomBindingsBootcamp.swift in Sources */,
 				34A791092BACDCD700AA88DD /* SwiftUIBootcampApp.swift in Sources */,
 				34A7911A2BACDD1000AA88DD /* SimpleBindingBootcamp.swift in Sources */,
