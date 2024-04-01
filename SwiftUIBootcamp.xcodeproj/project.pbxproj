@@ -47,6 +47,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		342ED0E72BBB2D6F0005B645 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				345AECF52BACEE94004B85F1 /* Simple Bindings in SwiftUI.md */,
+				34BC744F2BAF7F75008945BC /* PropertyWrappers.md */,
+				342ED0E42BBB29200005B645 /* Using Previews with Bindings.md */,
+			);
+			path = Documentation;
+			sourceTree = "<group>";
+		};
 		34A790FC2BACDCD700AA88DD = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +76,7 @@
 		34A791072BACDCD700AA88DD /* SwiftUIBootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				342ED0E72BBB2D6F0005B645 /* Documentation */,
 				34BC74502BAF7FF2008945BC /* Screenshot */,
 				34BC744A2BAF7B38008945BC /* Working With Data */,
 				34A791082BACDCD700AA88DD /* SwiftUIBootcampApp.swift */,
@@ -105,9 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				34A791192BACDD1000AA88DD /* SimpleBindingBootcamp.swift */,
-				345AECF52BACEE94004B85F1 /* Simple Bindings in SwiftUI.md */,
 				342ED0E02BBB27C90005B645 /* UsingPreviewsWithBinding.swift */,
-				342ED0E42BBB29200005B645 /* Using Previews with Bindings.md */,
 			);
 			path = "Simple Bindings";
 			sourceTree = "<group>";
@@ -125,7 +134,6 @@
 			isa = PBXGroup;
 			children = (
 				34BC744D2BAF7B65008945BC /* PropertyWrappers_Intro.swift */,
-				34BC744F2BAF7F75008945BC /* PropertyWrappers.md */,
 			);
 			path = PropertyWrappersIntro;
 			sourceTree = "<group>";
