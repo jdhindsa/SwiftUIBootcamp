@@ -4,6 +4,7 @@ This project is all about deliberate practice of the various SwiftUI concepts.  
 
 ## Passing Data
 ### Property Wrappers
-- [Intro to Property Wrappers](https://github.com/jdhindsa/SwiftUIBootcamp/blob/main/SwiftUIBootcamp/Working%20With%20Data/PropertyWrappersIntro/PropertyWrappers.md)
+- [Intro to Property Wrappers](https://github.com/jdhindsa/SwiftUIBootcamp/blob/main/SwiftUIBootcamp/Documentation/PropertyWrappers.md)
 ### Bindings
-- [Using simple bindings in SwiftUI](https://github.com/jdhindsa/SwiftUIBootcamp/blob/main/SwiftUIBootcamp/Working%20With%20Data/Bindings/Simple%20Bindings/Simple%20Bindings%20in%20SwiftUI.md)
+- [Using simple bindings in SwiftUI](https://github.com/jdhindsa/SwiftUIBootcamp/blob/main/SwiftUIBootcamp/Documentation/SimpleBindingsInSwiftUI.md)
+- [Using Bindings in Previews](https://github.com/jdhindsa/SwiftUIBootcamp/blob/main/SwiftUIBootcamp/Documentation/UsingPreviewsWithBindings.md)
