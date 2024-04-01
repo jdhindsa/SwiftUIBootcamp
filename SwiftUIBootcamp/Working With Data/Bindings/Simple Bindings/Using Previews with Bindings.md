@@ -12,4 +12,4 @@ For example:
 
 **Note** it is important to return the subview within the Preview's `body` closure.
 
-![Example of using Bindings in Previews](https://raw.github.com/jdhindsa/SwiftUIBootcamp/main/SwiftUIBootcamp/Screenshot/using_previews_with_bindings)
+![Example of using Bindings in Previews](https://raw.github.com/jdhindsa/SwiftUIBootcamp/main/SwiftUIBootcamp/Screenshot/using_previews_with_bindings.png)

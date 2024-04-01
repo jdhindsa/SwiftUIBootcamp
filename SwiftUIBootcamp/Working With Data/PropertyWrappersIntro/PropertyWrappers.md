@@ -2,7 +2,7 @@
 
 A property wrapper lets you create reusable property wrappers that you can use on your properties.
 
-![How Property Wrappers Work](https://raw.github.com/jdhindsa/SwiftUIBootcamp/main/SwiftUIBootcamp/Screenshot/property_wrappers)
+![How Property Wrappers Work](https://raw.github.com/jdhindsa/SwiftUIBootcamp/main/SwiftUIBootcamp/Screenshot/property_wrappers.png)
 
 A property wrapper can be used on an:
 - enum
