@@ -59,4 +59,6 @@ struct SimpleBindingBootcamp: View {
 }
 ```
 
+![1 way versus 2 way bindings](https://raw.github.com/jdhindsa/SwiftUIBootcamp/main/SwiftUIBootcamp/Screenshot/1_way_vs_2_way_bindings)
+
 When passing a @State variable into another view and you need to bind it's value, use the `$` symbol before the name of the @State variable

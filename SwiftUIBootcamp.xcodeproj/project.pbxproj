@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		342ED0E12BBB27C90005B645 /* UsingPreviewsWithBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342ED0E02BBB27C90005B645 /* UsingPreviewsWithBinding.swift */; };
+		342ED0E32BBB28CD0005B645 /* using_previews_with_bindings.png in Resources */ = {isa = PBXBuildFile; fileRef = 342ED0E22BBB28CD0005B645 /* using_previews_with_bindings.png */; };
+		342ED0E62BBB2A990005B645 /* 1_way_vs_2_way_bindings.png in Resources */ = {isa = PBXBuildFile; fileRef = 342ED0E52BBB2A990005B645 /* 1_way_vs_2_way_bindings.png */; };
 		34A791092BACDCD700AA88DD /* SwiftUIBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A791082BACDCD700AA88DD /* SwiftUIBootcampApp.swift */; };
 		34A7910D2BACDCD700AA88DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34A7910C2BACDCD700AA88DD /* Assets.xcassets */; };
 		34A791102BACDCD700AA88DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34A7910F2BACDCD700AA88DD /* Preview Assets.xcassets */; };
@@ -14,10 +17,14 @@
 		34A7911C2BACDD2900AA88DD /* ChildViewsUsingCustomBindingsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A7911B2BACDD2900AA88DD /* ChildViewsUsingCustomBindingsBootcamp.swift */; };
 		34A7911E2BACDD3700AA88DD /* SwiftUIViewsUsingCustomBindingsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A7911D2BACDD3700AA88DD /* SwiftUIViewsUsingCustomBindingsBootcamp.swift */; };
 		34BC744E2BAF7B65008945BC /* PropertyWrappers_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BC744D2BAF7B65008945BC /* PropertyWrappers_Intro.swift */; };
-		34BC74522BAF8017008945BC /* propertywrappers1.png in Resources */ = {isa = PBXBuildFile; fileRef = 34BC74512BAF8017008945BC /* propertywrappers1.png */; };
+		34BC74522BAF8017008945BC /* property_wrappers.png in Resources */ = {isa = PBXBuildFile; fileRef = 34BC74512BAF8017008945BC /* property_wrappers.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		342ED0E02BBB27C90005B645 /* UsingPreviewsWithBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingPreviewsWithBinding.swift; sourceTree = "<group>"; };
+		342ED0E22BBB28CD0005B645 /* using_previews_with_bindings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = using_previews_with_bindings.png; sourceTree = "<group>"; };
+		342ED0E42BBB29200005B645 /* Using Previews with Bindings.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Using Previews with Bindings.md"; sourceTree = "<group>"; };
+		342ED0E52BBB2A990005B645 /* 1_way_vs_2_way_bindings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1_way_vs_2_way_bindings.png; sourceTree = "<group>"; };
 		345AECF52BACEE94004B85F1 /* Simple Bindings in SwiftUI.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Simple Bindings in SwiftUI.md"; sourceTree = "<group>"; };
 		34A791052BACDCD700AA88DD /* SwiftUIBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34A791082BACDCD700AA88DD /* SwiftUIBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBootcampApp.swift; sourceTree = "<group>"; };
@@ -28,7 +35,7 @@
 		34A7911D2BACDD3700AA88DD /* SwiftUIViewsUsingCustomBindingsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewsUsingCustomBindingsBootcamp.swift; sourceTree = "<group>"; };
 		34BC744D2BAF7B65008945BC /* PropertyWrappers_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrappers_Intro.swift; sourceTree = "<group>"; };
 		34BC744F2BAF7F75008945BC /* PropertyWrappers.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = PropertyWrappers.md; sourceTree = "<group>"; };
-		34BC74512BAF8017008945BC /* propertywrappers1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = propertywrappers1.png; sourceTree = "<group>"; };
+		34BC74512BAF8017008945BC /* property_wrappers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = property_wrappers.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +108,8 @@
 			children = (
 				34A791192BACDD1000AA88DD /* SimpleBindingBootcamp.swift */,
 				345AECF52BACEE94004B85F1 /* Simple Bindings in SwiftUI.md */,
+				342ED0E02BBB27C90005B645 /* UsingPreviewsWithBinding.swift */,
+				342ED0E42BBB29200005B645 /* Using Previews with Bindings.md */,
 			);
 			path = "Simple Bindings";
 			sourceTree = "<group>";
@@ -126,7 +135,9 @@
 		34BC74502BAF7FF2008945BC /* Screenshot */ = {
 			isa = PBXGroup;
 			children = (
-				34BC74512BAF8017008945BC /* propertywrappers1.png */,
+				342ED0E52BBB2A990005B645 /* 1_way_vs_2_way_bindings.png */,
+				342ED0E22BBB28CD0005B645 /* using_previews_with_bindings.png */,
+				34BC74512BAF8017008945BC /* property_wrappers.png */,
 			);
 			path = Screenshot;
 			sourceTree = "<group>";
@@ -189,9 +200,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				342ED0E62BBB2A990005B645 /* 1_way_vs_2_way_bindings.png in Resources */,
 				34A791102BACDCD700AA88DD /* Preview Assets.xcassets in Resources */,
 				34A7910D2BACDCD700AA88DD /* Assets.xcassets in Resources */,
-				34BC74522BAF8017008945BC /* propertywrappers1.png in Resources */,
+				342ED0E32BBB28CD0005B645 /* using_previews_with_bindings.png in Resources */,
+				34BC74522BAF8017008945BC /* property_wrappers.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34A7911C2BACDD2900AA88DD /* ChildViewsUsingCustomBindingsBootcamp.swift in Sources */,
+				342ED0E12BBB27C90005B645 /* UsingPreviewsWithBinding.swift in Sources */,
 				34BC744E2BAF7B65008945BC /* PropertyWrappers_Intro.swift in Sources */,
 				34A7911E2BACDD3700AA88DD /* SwiftUIViewsUsingCustomBindingsBootcamp.swift in Sources */,
 				34A791092BACDCD700AA88DD /* SwiftUIBootcampApp.swift in Sources */,
