@@ -21,9 +21,9 @@
 
 /* Begin PBXFileReference section */
 		342ED0E02BBB27C90005B645 /* UsingPreviewsWithBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingPreviewsWithBinding.swift; sourceTree = "<group>"; };
-		342ED0E42BBB29200005B645 /* Using Previews with Bindings.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Using Previews with Bindings.md"; sourceTree = "<group>"; };
+		342ED0E42BBB29200005B645 /* UsingPreviewsWithBindings.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = UsingPreviewsWithBindings.md; sourceTree = "<group>"; };
 		342ED0E52BBB2A990005B645 /* 1_way_vs_2_way_bindings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1_way_vs_2_way_bindings.png; sourceTree = "<group>"; };
-		345AECF52BACEE94004B85F1 /* Simple Bindings in SwiftUI.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Simple Bindings in SwiftUI.md"; sourceTree = "<group>"; };
+		345AECF52BACEE94004B85F1 /* SimpleBindingsInSwiftUI.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SimpleBindingsInSwiftUI.md; sourceTree = "<group>"; };
 		34A791052BACDCD700AA88DD /* SwiftUIBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34A791082BACDCD700AA88DD /* SwiftUIBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBootcampApp.swift; sourceTree = "<group>"; };
 		34A7910C2BACDCD700AA88DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -50,9 +50,9 @@
 		342ED0E72BBB2D6F0005B645 /* Documentation */ = {
 			isa = PBXGroup;
 			children = (
-				345AECF52BACEE94004B85F1 /* Simple Bindings in SwiftUI.md */,
+				345AECF52BACEE94004B85F1 /* SimpleBindingsInSwiftUI.md */,
 				34BC744F2BAF7F75008945BC /* PropertyWrappers.md */,
-				342ED0E42BBB29200005B645 /* Using Previews with Bindings.md */,
+				342ED0E42BBB29200005B645 /* UsingPreviewsWithBindings.md */,
 			);
 			path = Documentation;
 			sourceTree = "<group>";
