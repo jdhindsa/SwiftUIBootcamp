@@ -8,3 +8,4 @@ This project is all about deliberate practice of the various SwiftUI concepts.  
 ### Bindings
 - [Using simple bindings in SwiftUI](https://github.com/jdhindsa/SwiftUIBootcamp/blob/main/SwiftUIBootcamp/Documentation/SimpleBindingsInSwiftUI.md)
 - [Using Bindings in Previews](https://github.com/jdhindsa/SwiftUIBootcamp/blob/main/SwiftUIBootcamp/Documentation/UsingPreviewsWithBindings.md)
+- [All about Custom Bindings](https://github.com/jdhindsa/SwiftUIBootcamp/blob/main/SwiftUIBootcamp/Documentation/CustomBindings.md)
