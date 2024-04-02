@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		342ED0E12BBB27C90005B645 /* UsingPreviewsWithBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342ED0E02BBB27C90005B645 /* UsingPreviewsWithBinding.swift */; };
 		342ED0E62BBB2A990005B645 /* 1_way_vs_2_way_bindings.png in Resources */ = {isa = PBXBuildFile; fileRef = 342ED0E52BBB2A990005B645 /* 1_way_vs_2_way_bindings.png */; };
+		342ED0EA2BBC38A00005B645 /* CustomBindingExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 342ED0E92BBC38A00005B645 /* CustomBindingExample.gif */; };
 		34A791092BACDCD700AA88DD /* SwiftUIBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A791082BACDCD700AA88DD /* SwiftUIBootcampApp.swift */; };
 		34A7910D2BACDCD700AA88DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34A7910C2BACDCD700AA88DD /* Assets.xcassets */; };
 		34A791102BACDCD700AA88DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34A7910F2BACDCD700AA88DD /* Preview Assets.xcassets */; };
@@ -23,6 +24,8 @@
 		342ED0E02BBB27C90005B645 /* UsingPreviewsWithBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingPreviewsWithBinding.swift; sourceTree = "<group>"; };
 		342ED0E42BBB29200005B645 /* UsingPreviewsWithBindings.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = UsingPreviewsWithBindings.md; sourceTree = "<group>"; };
 		342ED0E52BBB2A990005B645 /* 1_way_vs_2_way_bindings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1_way_vs_2_way_bindings.png; sourceTree = "<group>"; };
+		342ED0E82BBC36A60005B645 /* CustomBindings.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CustomBindings.md; sourceTree = "<group>"; };
+		342ED0E92BBC38A00005B645 /* CustomBindingExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = CustomBindingExample.gif; sourceTree = "<group>"; };
 		345AECF52BACEE94004B85F1 /* SimpleBindingsInSwiftUI.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SimpleBindingsInSwiftUI.md; sourceTree = "<group>"; };
 		34A791052BACDCD700AA88DD /* SwiftUIBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34A791082BACDCD700AA88DD /* SwiftUIBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBootcampApp.swift; sourceTree = "<group>"; };
@@ -50,9 +53,11 @@
 		342ED0E72BBB2D6F0005B645 /* Documentation */ = {
 			isa = PBXGroup;
 			children = (
+				342ED0E92BBC38A00005B645 /* CustomBindingExample.gif */,
 				345AECF52BACEE94004B85F1 /* SimpleBindingsInSwiftUI.md */,
 				34BC744F2BAF7F75008945BC /* PropertyWrappers.md */,
 				342ED0E42BBB29200005B645 /* UsingPreviewsWithBindings.md */,
+				342ED0E82BBC36A60005B645 /* CustomBindings.md */,
 			);
 			path = Documentation;
 			sourceTree = "<group>";
@@ -206,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				342ED0E62BBB2A990005B645 /* 1_way_vs_2_way_bindings.png in Resources */,
+				342ED0EA2BBC38A00005B645 /* CustomBindingExample.gif in Resources */,
 				34A791102BACDCD700AA88DD /* Preview Assets.xcassets in Resources */,
 				34A7910D2BACDCD700AA88DD /* Assets.xcassets in Resources */,
 				34BC74522BAF8017008945BC /* property_wrappers.png in Resources */,
