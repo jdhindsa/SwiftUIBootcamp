@@ -1,6 +1,6 @@
 #  Observable
 
-** NOTE ** The `@Observable` macro is only available in iOS 17 and above.
+**NOTE** The `@Observable` macro is only available in iOS 17 and above.
 
 ## Documentation
 [Observation Framework](https://developer.apple.com/documentation/observation)
