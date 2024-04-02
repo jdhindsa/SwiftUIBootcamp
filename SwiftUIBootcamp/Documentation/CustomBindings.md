@@ -66,3 +66,5 @@ struct ContentView: View {
 
 ### GIF showing how the toggles work
 ![](https://github.com/jdhindsa/SwiftUIBootcamp/blob/main/SwiftUIBootcamp/Documentation/CustomBindingExample.gif)
+
+**NOTE**: when you pass in the `firstBinding` or the `secondBinding` into another SwiftUI view, you don't need to prefix the binding with a `$` because you are already reading the 2-way binding.
