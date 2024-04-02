@@ -54,7 +54,7 @@ struct OneWayBindingWithAnObservableClass: View {
 
 ### 2 way bindings
 
-For a 2 way binding, the requirements change likely:
+For a 2 way binding, the requirements change a little bit:
 1) Import the `Observation` protocol on the class you want to observe.
 2) Add the `@Observable` macro to the class that you want to observe.
 3) Any properties within the class that are **not** marked as `private` will be automatically monitored for changes by the Observation framework.
