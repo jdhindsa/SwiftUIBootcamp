@@ -65,4 +65,4 @@ struct ContentView: View {
 ```
 
 ### GIF showing how the toggles work
-
+![](https://github.com/jdhindsa/SwiftUIBootcamp/blob/main/SwiftUIBootcamp/Documentation/CustomBindingExample.gif)
