@@ -64,6 +64,8 @@ struct ContentView: View {
 
 ```
 
+Because the `set` allows us to do whatever we need to do to any @State property in the view, we can make sure 1 toggle is on and the other one is always off.
+
 ### GIF showing how the toggles work
 ![](https://github.com/jdhindsa/SwiftUIBootcamp/blob/main/SwiftUIBootcamp/Documentation/CustomBindingExample.gif)
 
