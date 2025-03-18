@@ -7,44 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		342ED0E12BBB27C90005B645 /* UsingPreviewsWithBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342ED0E02BBB27C90005B645 /* UsingPreviewsWithBinding.swift */; };
-		342ED0E62BBB2A990005B645 /* 1_way_vs_2_way_bindings.png in Resources */ = {isa = PBXBuildFile; fileRef = 342ED0E52BBB2A990005B645 /* 1_way_vs_2_way_bindings.png */; };
-		342ED0EA2BBC38A00005B645 /* CustomBindingExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 342ED0E92BBC38A00005B645 /* CustomBindingExample.gif */; };
-		342ED0EE2BBC43470005B645 /* OneWayBindingWithAnObservableClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342ED0ED2BBC43470005B645 /* OneWayBindingWithAnObservableClass.swift */; };
-		342ED0F02BBC43510005B645 /* TwoWayBindingWithAnObservableClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342ED0EF2BBC43510005B645 /* TwoWayBindingWithAnObservableClass.swift */; };
-		342ED0F32BBCC47D0005B645 /* summary_of_observable.png in Resources */ = {isa = PBXBuildFile; fileRef = 342ED0F22BBCC47D0005B645 /* summary_of_observable.png */; };
+		3425D99A2D5C0CC300FC0860 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3425D9992D5C0CC300FC0860 /* ContentView.swift */; };
 		34A791092BACDCD700AA88DD /* SwiftUIBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A791082BACDCD700AA88DD /* SwiftUIBootcampApp.swift */; };
 		34A7910D2BACDCD700AA88DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34A7910C2BACDCD700AA88DD /* Assets.xcassets */; };
 		34A791102BACDCD700AA88DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34A7910F2BACDCD700AA88DD /* Preview Assets.xcassets */; };
-		34A7911A2BACDD1000AA88DD /* SimpleBindingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A791192BACDD1000AA88DD /* SimpleBindingBootcamp.swift */; };
-		34A7911C2BACDD2900AA88DD /* ChildViewsUsingCustomBindingsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A7911B2BACDD2900AA88DD /* ChildViewsUsingCustomBindingsBootcamp.swift */; };
-		34A7911E2BACDD3700AA88DD /* SwiftUIViewsUsingCustomBindingsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A7911D2BACDD3700AA88DD /* SwiftUIViewsUsingCustomBindingsBootcamp.swift */; };
-		34BC744E2BAF7B65008945BC /* PropertyWrappers_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BC744D2BAF7B65008945BC /* PropertyWrappers_Intro.swift */; };
-		34BC74522BAF8017008945BC /* property_wrappers.png in Resources */ = {isa = PBXBuildFile; fileRef = 34BC74512BAF8017008945BC /* property_wrappers.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		342ED0E02BBB27C90005B645 /* UsingPreviewsWithBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingPreviewsWithBinding.swift; sourceTree = "<group>"; };
-		342ED0E42BBB29200005B645 /* UsingPreviewsWithBindings.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = UsingPreviewsWithBindings.md; sourceTree = "<group>"; };
-		342ED0E52BBB2A990005B645 /* 1_way_vs_2_way_bindings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1_way_vs_2_way_bindings.png; sourceTree = "<group>"; };
-		342ED0E82BBC36A60005B645 /* CustomBindings.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CustomBindings.md; sourceTree = "<group>"; };
-		342ED0E92BBC38A00005B645 /* CustomBindingExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = CustomBindingExample.gif; sourceTree = "<group>"; };
-		342ED0ED2BBC43470005B645 /* OneWayBindingWithAnObservableClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneWayBindingWithAnObservableClass.swift; sourceTree = "<group>"; };
-		342ED0EF2BBC43510005B645 /* TwoWayBindingWithAnObservableClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoWayBindingWithAnObservableClass.swift; sourceTree = "<group>"; };
-		342ED0F12BBC45B60005B645 /* Observable.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Observable.md; sourceTree = "<group>"; };
-		342ED0F22BBCC47D0005B645 /* summary_of_observable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summary_of_observable.png; sourceTree = "<group>"; };
-		342ED0F42BBCC4D70005B645 /* ObservableAndSubviews.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ObservableAndSubviews.md; sourceTree = "<group>"; };
-		345AECF52BACEE94004B85F1 /* SimpleBindingsInSwiftUI.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SimpleBindingsInSwiftUI.md; sourceTree = "<group>"; };
+		3425D9992D5C0CC300FC0860 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		34A791052BACDCD700AA88DD /* SwiftUIBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34A791082BACDCD700AA88DD /* SwiftUIBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBootcampApp.swift; sourceTree = "<group>"; };
 		34A7910C2BACDCD700AA88DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34A7910F2BACDCD700AA88DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		34A791192BACDD1000AA88DD /* SimpleBindingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBindingBootcamp.swift; sourceTree = "<group>"; };
-		34A7911B2BACDD2900AA88DD /* ChildViewsUsingCustomBindingsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildViewsUsingCustomBindingsBootcamp.swift; sourceTree = "<group>"; };
-		34A7911D2BACDD3700AA88DD /* SwiftUIViewsUsingCustomBindingsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewsUsingCustomBindingsBootcamp.swift; sourceTree = "<group>"; };
-		34BC744D2BAF7B65008945BC /* PropertyWrappers_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrappers_Intro.swift; sourceTree = "<group>"; };
-		34BC744F2BAF7F75008945BC /* PropertyWrappers.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = PropertyWrappers.md; sourceTree = "<group>"; };
-		34BC74512BAF8017008945BC /* property_wrappers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = property_wrappers.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,29 +32,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		342ED0E72BBB2D6F0005B645 /* Documentation */ = {
-			isa = PBXGroup;
-			children = (
-				342ED0E92BBC38A00005B645 /* CustomBindingExample.gif */,
-				345AECF52BACEE94004B85F1 /* SimpleBindingsInSwiftUI.md */,
-				34BC744F2BAF7F75008945BC /* PropertyWrappers.md */,
-				342ED0E42BBB29200005B645 /* UsingPreviewsWithBindings.md */,
-				342ED0E82BBC36A60005B645 /* CustomBindings.md */,
-				342ED0F12BBC45B60005B645 /* Observable.md */,
-				342ED0F42BBCC4D70005B645 /* ObservableAndSubviews.md */,
-			);
-			path = Documentation;
-			sourceTree = "<group>";
-		};
-		342ED0EC2BBC41EA0005B645 /* @Observable & @Bindable */ = {
-			isa = PBXGroup;
-			children = (
-				342ED0ED2BBC43470005B645 /* OneWayBindingWithAnObservableClass.swift */,
-				342ED0EF2BBC43510005B645 /* TwoWayBindingWithAnObservableClass.swift */,
-			);
-			path = "@Observable & @Bindable";
-			sourceTree = "<group>";
-		};
 		34A790FC2BACDCD700AA88DD = {
 			isa = PBXGroup;
 			children = (
@@ -100,12 +51,10 @@
 		34A791072BACDCD700AA88DD /* SwiftUIBootcamp */ = {
 			isa = PBXGroup;
 			children = (
-				342ED0E72BBB2D6F0005B645 /* Documentation */,
-				34BC74502BAF7FF2008945BC /* Screenshot */,
-				34BC744A2BAF7B38008945BC /* Working With Data */,
-				34A791082BACDCD700AA88DD /* SwiftUIBootcampApp.swift */,
 				34A7910C2BACDCD700AA88DD /* Assets.xcassets */,
+				3425D9992D5C0CC300FC0860 /* ContentView.swift */,
 				34A7910E2BACDCD700AA88DD /* Preview Content */,
+				34A791082BACDCD700AA88DD /* SwiftUIBootcampApp.swift */,
 			);
 			path = SwiftUIBootcamp;
 			sourceTree = "<group>";
@@ -116,61 +65,6 @@
 				34A7910F2BACDCD700AA88DD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		34A791162BACDCEE00AA88DD /* Bindings */ = {
-			isa = PBXGroup;
-			children = (
-				34A791172BACDCF400AA88DD /* Custom Bindings */,
-				34A791182BACDCFB00AA88DD /* Simple Bindings */,
-			);
-			path = Bindings;
-			sourceTree = "<group>";
-		};
-		34A791172BACDCF400AA88DD /* Custom Bindings */ = {
-			isa = PBXGroup;
-			children = (
-				34A7911B2BACDD2900AA88DD /* ChildViewsUsingCustomBindingsBootcamp.swift */,
-				34A7911D2BACDD3700AA88DD /* SwiftUIViewsUsingCustomBindingsBootcamp.swift */,
-			);
-			path = "Custom Bindings";
-			sourceTree = "<group>";
-		};
-		34A791182BACDCFB00AA88DD /* Simple Bindings */ = {
-			isa = PBXGroup;
-			children = (
-				34A791192BACDD1000AA88DD /* SimpleBindingBootcamp.swift */,
-				342ED0E02BBB27C90005B645 /* UsingPreviewsWithBinding.swift */,
-			);
-			path = "Simple Bindings";
-			sourceTree = "<group>";
-		};
-		34BC744A2BAF7B38008945BC /* Working With Data */ = {
-			isa = PBXGroup;
-			children = (
-				342ED0EC2BBC41EA0005B645 /* @Observable & @Bindable */,
-				34A791162BACDCEE00AA88DD /* Bindings */,
-				34BC744C2BAF7B4C008945BC /* Property Wrappers Intro */,
-			);
-			path = "Working With Data";
-			sourceTree = "<group>";
-		};
-		34BC744C2BAF7B4C008945BC /* Property Wrappers Intro */ = {
-			isa = PBXGroup;
-			children = (
-				34BC744D2BAF7B65008945BC /* PropertyWrappers_Intro.swift */,
-			);
-			path = "Property Wrappers Intro";
-			sourceTree = "<group>";
-		};
-		34BC74502BAF7FF2008945BC /* Screenshot */ = {
-			isa = PBXGroup;
-			children = (
-				342ED0F22BBCC47D0005B645 /* summary_of_observable.png */,
-				342ED0E52BBB2A990005B645 /* 1_way_vs_2_way_bindings.png */,
-				34BC74512BAF8017008945BC /* property_wrappers.png */,
-			);
-			path = Screenshot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,12 +125,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				342ED0E62BBB2A990005B645 /* 1_way_vs_2_way_bindings.png in Resources */,
-				342ED0EA2BBC38A00005B645 /* CustomBindingExample.gif in Resources */,
 				34A791102BACDCD700AA88DD /* Preview Assets.xcassets in Resources */,
 				34A7910D2BACDCD700AA88DD /* Assets.xcassets in Resources */,
-				34BC74522BAF8017008945BC /* property_wrappers.png in Resources */,
-				342ED0F32BBCC47D0005B645 /* summary_of_observable.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,14 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				342ED0EE2BBC43470005B645 /* OneWayBindingWithAnObservableClass.swift in Sources */,
-				34A7911C2BACDD2900AA88DD /* ChildViewsUsingCustomBindingsBootcamp.swift in Sources */,
-				342ED0E12BBB27C90005B645 /* UsingPreviewsWithBinding.swift in Sources */,
-				34BC744E2BAF7B65008945BC /* PropertyWrappers_Intro.swift in Sources */,
-				34A7911E2BACDD3700AA88DD /* SwiftUIViewsUsingCustomBindingsBootcamp.swift in Sources */,
+				3425D99A2D5C0CC300FC0860 /* ContentView.swift in Sources */,
 				34A791092BACDCD700AA88DD /* SwiftUIBootcampApp.swift in Sources */,
-				34A7911A2BACDD1000AA88DD /* SimpleBindingBootcamp.swift in Sources */,
-				342ED0F02BBC43510005B645 /* TwoWayBindingWithAnObservableClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
